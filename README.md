@@ -6,7 +6,8 @@ This project, a **capstone project in an IBM Data Analysis with Excel & R**, inv
 ## Key Insights from Seoul Bike Data
 - **Peak Usage**: Highest bike usage from 6pm to 9pm; lowest from 3am to 6am.
 - **Morning Peak**: Significant usage between 6am and 9am, likely due to commuting.
-- **Seasonal Variations**: Summer is the busiest for bike counts; Winter is the least.
+- **Active Seasons**: Summer most active for bike sharing; Winter least.
+- **Autumn Variability**: Most fluctuations in patterns, highest coefficient absolute value.
 - **Temperature Impact**: Highest bike usage recorded in the temperature range of 15-30 degrees.
 - **Weather Impact**:
   - Summer: Highest average temperature, humidity, and dew point.
@@ -17,6 +18,7 @@ This project, a **capstone project in an IBM Data Analysis with Excel & R**, inv
   - Moderate rainfall: 0.58 hours
   - Heavy rainfall: 13 hours
   - Snowfall: 443 hours
+  - **Holidays in Seoul**: - Holidays generally lead to a decrease in bike usage, except during Autumn, when there's an increase. Seoul observes 18 holidays annually.
 
 ## Specific Dates and Events
 - **Chuseok (September 23)**: Significant holiday with high bike usage.
@@ -65,9 +67,26 @@ This project, a **capstone project in an IBM Data Analysis with Excel & R**, inv
 ## Overall Model Performance
 - **rSquared Value**: 77.8% correlation between rented bike counts and weather variables.
 - **RMSE**: 8.27%.
+- **Key influences**: While temperature might seem like the primary factor, variations in rainfall, humidity, and dew point temperature have a more significant impact when deviating from the average or expected levels.
 
-## Summary
-- **Active Seasons**: Summer most active for bike sharing; Winter least.
-- **Autumn Variability**: Most fluctuations in patterns, highest coefficient absolute value.
+## Forecast data with Predicted Bike Usage
 
-Throughout this project, I utilized various forms and models of regression, applied newly learned methods in data preparation, web scraping, visualization, creating functions, and SQL. The analysis provided valuable insights into bike usage patterns in Seoul, influenced by weather conditions.
+Here are the results of the bike usage range of the Predicted rented bike counts based on the previous Model, under it are normalized bike counts from Autumn that was pulled from that said Model's dataset used to get my previous results, showing relatively close results.
+
+### Forecasted Rented Bike Counts:
+- **Minimum**: 0.00000
+- **1st Quartile**: 0.01029
+- **Median**: 0.18627
+- **Mean**: 0.26970
+- **3rd Quartile**: 0.41391
+- **Maximum**: 0.92155
+
+### Normalized Rented Bike Counts (Autumn):
+- **Minimum**: 0.0000
+- **1st Quartile**: 0.1215
+- **Median**: 0.2393
+- **Mean**: 0.2589
+- **3rd Quartile**: 0.3566
+- **Maximum**: 0.9274
+
+The relatively close results, particularly in the mean and median values, indicate good alignment between the predictions and the actual data. However, there is some variance due to the smaller sample size, which increases the room for residuals.
