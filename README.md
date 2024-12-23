@@ -38,8 +38,7 @@ This project, a **capstone project in an IBM Data Analysis with Excel & R**, inv
 ### Excel Review and Data Cleaning
 - **Techniques Used**:
   - Seasonal Averages: Calculated using `=AVERAGEIFS`.
-  - Time Conversion: Numeric to time format using `=TEXT`.
-  - Humidity Adjustment: Decimal adjustment using `=E2 / 100`.
+  - Time Conversion: Numeric to time format using `=TEXT`
   - Column Alignment: Corrected data types, bold headers, and cell formatting.
 - **Dataset Used**: Data with filled missing values for Autumn bike counts to retain comparative size.
 
