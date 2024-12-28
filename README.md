@@ -3,6 +3,23 @@
 ## Overview
 This project, a **capstone project in an IBM Data Analysis with Excel & R**, involves a comprehensive analysis using web scraping, data cleaning, rSQLite EDA, ggplot visualization, and various regression models to understand bike usage patterns in Seoul.
 
+This repository contains the following files:
+- Raw data sets
+- Data cleaning script for three files used
+- Datasets used during the analysis
+- Separate Excel summary
+- Forecast ride count based on forecast weather and historical bike counts
+
+The full analysis is available to view [here](https://portellia.github.io/IBM_Capstone_WeatherAI.html).
+
+### Contents
+- `raw_data/`: Contains the raw data sets.
+- `Data cleaning for 3 files..R/`: Script for cleaning the files used.
+- `forecast_data.csv & year_ride_seoul.csv/`: Cleaned datasets used during the analysis.
+- `statistic_summary_seoul_data.xlsx/`: Excel summary of the analysis.
+- `Seoul_forecast_with_predictions.csv/`: Forecast ride count based on the forecast weather and historical bike counts.
+
+
 ## Key Insights from Seoul Bike Data
 - **Peak Usage**: Highest bike usage from 6pm to 9pm; lowest from 3am to 6am.
 - **Morning Peak**: Significant usage between 6am and 9am, likely due to commuting.
