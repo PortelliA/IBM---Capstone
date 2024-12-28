@@ -1,7 +1,7 @@
 # Seoul Bike Data Analysis
 
 ## Overview
-This project, a **capstone project in an IBM Data Analysis with Excel & R**, involves a comprehensive analysis using web scraping, data cleaning, rSQLite EDA, ggplot visualization, and various regression models to understand bike usage patterns in Seoul.
+This project, a **capstone project in an IBM Data Analysis with Excel & R**, involves a complete analysis using web scraping, data cleaning, rSQLite EDA, ggplot visualization, and various regression models to understand bike usage patterns in Seoul.
 
 This repository contains the following files:
 - Raw data sets
@@ -13,11 +13,11 @@ This repository contains the following files:
 The full analysis is available to view [here](https://portellia.github.io/IBM_Capstone_WeatherAI.html).
 
 ### Contents
-- `raw_data/`: Contains the raw data sets.
-- `Data cleaning for 3 files..R/`: Script for cleaning the files used.
-- `forecast_data.csv & year_ride_seoul.csv/`: Cleaned datasets used during the analysis.
-- `statistic_summary_seoul_data.xlsx/`: Excel summary of the analysis.
-- `Seoul_forecast_with_predictions.csv/`: Forecast ride count based on the forecast weather and historical bike counts.
+- `raw_data`: Contains the raw data sets.
+- `Data cleaning for 3 files..R`: Script for cleaning the files used.
+- `forecast_data.csv` & `year_ride_seoul.csv`: Cleaned datasets used during the analysis.
+- `statistic_summary_seoul_data.xlsx`: Excel summary of the analysis.
+- `Seoul_forecast_with_predictions.csv`: Forecast ride count based on the forecast weather and historical bike counts.
 
 
 ## Key Insights from Seoul Bike Data
